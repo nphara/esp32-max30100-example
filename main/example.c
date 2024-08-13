@@ -27,10 +27,11 @@
 #include "freertos/task.h"
 #include "driver/gpio.h"
 
-#include "max30100/max30100.h"
+#include "max30100.h"
+// #include "max30100/max30100"
 
-#define I2C_SDA 26
-#define I2C_SCL 25
+#define I2C_SDA 21
+#define I2C_SCL 22
 #define I2C_FRQ 100000
 #define I2C_PORT I2C_NUM_0
 
